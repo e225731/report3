@@ -14,28 +14,60 @@ public class Hero {
     private int hitPoint;
     private int attack;
     private boolean dead;
-   
+
+    /**ヒーローの名前を返します。
+     * @return String　を返します。
+     */
     public String getName(){
         return name;
     }
+
+
+    /**ヒーローのHPを返します。
+     * @return int を返します。
+     */
     public int getHitPoint(){
         return hitPoint;
     }
+
+    /**ヒーローの攻撃力を返します。
+     * @return int を返します。
+     */  
     public int getAttack(){
         return attack;
     }
+
+    /**ヒーローの生死を返します。
+     * @return　boolean を返す。
+     */
     public boolean getDead(){
         return dead;
     }
+
+    /**ヒーローの名前を設定する。
+     * @param n 
+     */
     public void setName(String n){
         this.name = n;
     }
+
+    /**ヒーローのHPを設定する。
+     * @param h
+     */
     public void setHitPoint(int h){
         this.hitPoint = h;
     }
+
+    /**ヒーローの攻撃力を設定する。
+     * @param a
+     */
     public void setAttack(int a){
         this.attack = a;
     }
+
+    /**ヒーローの生死を設定する。
+     * @param d
+     */ 
     public void setDead(boolean d){
         this.dead = d;
     }
